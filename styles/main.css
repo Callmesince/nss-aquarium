@@ -1,3 +1,64 @@
-.fish {}
-.fish_name {}
-#fishtank {}
+
+.main-content{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+
+.page-header {
+    
+    text-align: center;
+    font-size: 55px;
+}
+.martins-tips {
+   
+    justify-content: right ;
+    box-sizing: content-box;
+    width: 150px;
+    height: 300px;
+    border: solid #000000 5px;
+    padding: 5px;
+
+}
+
+
+.fish-collection {
+    
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 10px;
+    width: 400px;
+}
+
+.blue-fish {
+    display: flex;
+    justify-content: space-evenly ;
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 5px;
+}
+.red-fish {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 5px;
+}
+
+.travel-tips {
+    
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.locations {
+    
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 5px;
+    width: 400px;
+}
+
