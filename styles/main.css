@@ -6,14 +6,24 @@
 }
 
 
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(232, 244, 247), rgb(5, 203, 238));
+   }
+
 .page-header {
-    
+    font-family: "fantasy", "papyrus", serif;
     text-align: center;
     font-size: 55px;
+}
+
+.tips-head {
+    text-align: center;
 }
 .martins-tips {
    
     justify-content: right ;
+    box-shadow:10px 10px 8px #888888;
     box-sizing: content-box;
     width: 150px;
     height: 300px;
@@ -25,40 +35,56 @@
 
 .fish-collection {
     
-    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: solid #000000 5px;
+    box-shadow:10px 10px 8px #888888;
     padding: 10px;
     width: 400px;
 }
 
-.blue-fish {
-    display: flex;
-    justify-content: space-evenly ;
-    box-sizing: content-box;
-    border: solid #000000 5px;
-    padding: 5px;
+.fish-head {
+    text-align: center;
 }
-.red-fish {
+.fish {
     display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 10px;
     box-sizing: content-box;
     border: solid #000000 5px;
     padding: 5px;
 }
 
+.travel-head {
+    text-align: center;
+}
+
+.travel {
+    justify-content: space-between;
+    box-shadow:10px 10px 8px #888888;
+    border-collapse: separate;
+    border: solid #000000 5px;
+    padding: 10px;
+    width: 400px;
+}
 .travel-tips {
     
     box-sizing: content-box;
+    margin-bottom: 10px;
     border: solid #000000 5px;
     padding: 5px;
-    width: 400px;
+    width: 375px;
+}
+
+.location-head {
+    text-align: center;
 }
 
 .locations {
-    
+    text-align: center;
     box-sizing: content-box;
     border: solid #000000 5px;
     padding: 5px;
-    width: 400px;
+    width: 375px;
 }
 
