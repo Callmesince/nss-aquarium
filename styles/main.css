@@ -1,8 +1,12 @@
 
 .main-content{
     display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
     padding: 10px;
     justify-content: space-evenly;
+    align-content: space-between;
 }
 
 
@@ -36,6 +40,8 @@ body {
 .fish-collection {
     
     display: flex;
+    margin-right: 20%;
+    margin-bottom: 5%;
     flex-direction: column;
     justify-content: space-between;
     border: solid #000000 5px;
@@ -61,6 +67,7 @@ body {
 
 .travel {
     justify-content: space-between;
+    margin-bottom: 5%;
     box-shadow:10px 10px 8px #888888;
     border-collapse: separate;
     border: solid #000000 5px;
